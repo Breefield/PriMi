@@ -1,0 +1,7 @@
+#logo a img:before {
+    content: '<span class="f">Mi</span><span class="b">Fi</span>';
+}
+
+#logo a img {
+    display: none;
+}

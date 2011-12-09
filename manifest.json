@@ -1,0 +1,21 @@
+{
+    "name": "PriMi",
+    "version": "0.1",
+    "description": "Makes MetaFilter pretty.",
+    "content_security_policy": "default-src 'self' ",  
+     "minimum_chrome_version": "14.0.835.202",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://www.metafilter.com/*"
+            ],
+            "css": [
+                "css/override.css"
+            ],
+            "js": [
+                "js/jquery.1.7.1.min.js",
+                "js/override.js"
+            ]
+        }
+    ]
+}
